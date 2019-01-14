@@ -1,0 +1,38 @@
+
+	.labels{
+		color: blue;
+		float: left;
+		font-weight: bolder;
+		font-size:150%;
+
+	}
+	.input{
+		width:100%;
+		color:blue;
+		border-color: blue;
+		cursor: pointer;
+
+	}
+	.error{
+		font-size: 75%;
+		color: red;
+		text-align: center;
+	
+	}
+	.checkbox_text{
+		color: blue;
+		font-weight: bold;
+	}
+
+	input{    
+		cursor: pointer;
+	}
+	.submit_btn:hover{
+		height: 120%;
+		color:red;
+		background-color: 
+	}
+	.star{
+		color: red;
+	}
+	

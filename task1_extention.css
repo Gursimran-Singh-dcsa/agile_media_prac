@@ -1,0 +1,120 @@
+	.row{
+		width:100%;
+		border-bottom: 1px solid white;
+		color:white;
+		}
+	.CheckBoxColumn{
+		width:4%;
+		
+		text-align: center;
+		font-weight: bold;
+
+	}
+	.IdColumn{
+		width:6%;
+		
+		text-align: center;
+		font-weight: bold;
+	}
+	.NameColumn{
+		width:25%;
+		
+		text-align: center;
+		font-weight: bold;
+	}
+	.EmailColumn{
+		width: 40%;
+		
+		text-align: center;
+		font-weight: bold;
+	}
+	.ActionColumn{
+		width:25%;
+		text-align: center;
+		font-weight: bold;
+	}
+	.movers{
+		color:white;
+		text-align: center;
+		font-weight: bold;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	.moversl{
+		color:white;
+		text-align: center;
+		font-weight: bold;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	.moversr{
+		color:white;
+		text-align: center;
+		font-weight: bold;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	a:hover{
+		color:red;
+	}
+	.delete{
+		text-decoration: underline;
+		cursor: pointer;
+		border-right: 1px solid red;
+	}
+	.edit{
+		margin-left: 5px;
+		text-decoration: underline;
+		cursor: pointer;
+		border-left: 1px solid red;
+
+	}
+	.outerbox{
+	/*	display: none; /* Hidden by default */
+  		position: fixed; /* Stay in place */
+	  	z-index: 1; /* Sit on top */
+	 	padding-top: 100px; /* Location of the box */
+	  	left: 0;
+	  	top: 0;
+	  	width: 100%; /* Full width */
+	  	height: 100%; /* Full height */
+	  	overflow: auto; /* Enable scroll if needed */
+	  	background-color: rgb(0,0,0); /* Fallback color */
+	  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	}
+	.innerbox{
+		background-color: #fefefe;
+ 	 	margin: auto;
+ 		padding: 20px;
+  		border: 1px solid #888;
+		width: 30%;
+	}
+	.innnerbox{
+		background-color: #fefefe;
+ 	 	margin: auto;
+ 		padding: 20px;
+  		border: 1px solid #888;
+		width: 80%;
+	}
+	.ask{
+		cursor: pointer;
+	}
+	.red{
+		color: red;
+		margin-left: 70%;
+	}
+	.green{
+		margin-left: 10%;
+		color: green;
+	}
+	.view{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	.deleteMultipleSelected{
+		.color:white;
+		background-color: red;
+		text-align: center;
+		border:1px solid black;
+		cursor: pointer;
+	}

@@ -1,0 +1,17 @@
+Typeof(variable)
+array.length
+arrayName.push(value)	//add a value to end of array
+arrayName.pop();		// deletes last element of the array
+arrayName.shift();		// deletes first element of array
+arrayName.splice(Index from which to be delete, number of items to be delete);
+	Ex: let values = [1,2,3,4,5];
+			values.splice(0,3);
+			console.log(values); //2 ,(4,5)
+
+objects :    var objectName={
+								Key1: Value1,
+								Key2: Value2,.....
+								Key(n):Value(N)
+							};
+
+Retrieval :    objectName:Key;										
